@@ -8,6 +8,7 @@
     "cypress:open": "cypress open"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
     "cypress": "^13.0.0"
   }
 }
