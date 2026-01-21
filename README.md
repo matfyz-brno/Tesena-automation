@@ -1,16 +1,37 @@
-# Tesena-automation
+## Tesena-automation
 
-# Cypress automated tests – PrestaShop demo
+Automated end-to-end QA tests for a PrestaShop demo store using **Cypress.io**.
 
-This repository contains automated QA tests written in Cypress (JavaScript).
+This repository contains a practical QA test suite written in JavaScript with Cypress to validate core frontend customer flows of a PrestaShop e-commerce site.
 
-## Requirements
+## 📌 Project Overview
 
-- Node.js 18+
-- npm
+This project implements automated UI tests for the following scenarios:
 
-## Installation
+1. **User Registration** – verify new user can register successfully.
+2. **Smoke Check** – ensure homepage loads and user is logged in.
+3. **Search Functionality** – validate that product search returns results.
+4. **Cart Workflow** – add product to cart and verify it appears in cart.
+
+These tests demonstrate real user flows and criteria commonly checked in QA automation tasks.
+
+---
+
+## 🚀 Prerequisites
+
+Before running the tests, ensure you have:
+
+- **Node.js 18+**
+- **npm (Node Package Manager)**
+
+---
+
+## 🔧 Installation
 
 ```bash
 npm install
 ```
+
+## Open Cypress Test Runner:
+
+npx cypress open
